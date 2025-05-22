@@ -14,9 +14,9 @@ Langkah Instalasi
 git clone https://github.com/mhmdmkmri/sistem-approval-progress-harian.git
 cd progress-approval
 
-2.	2. Install Dependensi Backend
+2.  Install Dependensi Backend
 composer install
-3.	3. Salin File .env dan Konfigurasi
+3.	Salin File .env dan Konfigurasi
 cp .env.example .env
 Edit .env dan sesuaikan bagian database seperti berikut:
 
@@ -30,16 +30,16 @@ DB_DATABASE=nama_database
 DB_USERNAME=nama_user
 DB_PASSWORD=kata_sandi
 
-4.	4. Generate App Key
+4.	Generate App Key
 php artisan key:generate
-5.	5. Migrasi dan Seeder
+5.	Migrasi dan Seeder
 php artisan migrate --seed
-6.	6. Link Storage untuk Upload Gambar
+6.	Link Storage untuk Upload Gambar
 php artisan storage:link
 Frontend Setup
-7.	7. Install Node Modules
+7.	Install Node Modules
 npm install
-8.	8. Build Aset Frontend
+8.	uild Aset Frontend
 Untuk development:
 npm run dev
 Untuk production:
