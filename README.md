@@ -11,7 +11,7 @@ Kebutuhan Sistem
 Langkah Instalasi
 1.	1. Clone Proyek
 
-git clone https://github.com/username/progress-approval.git
+git clone https://github.com/mhmdmkmri/sistem-approval-progress-harian.git
 cd progress-approval
 
 2.	2. Install Dependensi Backend
