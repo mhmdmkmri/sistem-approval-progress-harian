@@ -9,7 +9,7 @@ Kebutuhan Sistem
 - PostgreSQL
 - Laravel 10
 Langkah Instalasi
-1.	1. Clone Proyek
+1.  Clone Proyek
 
 git clone https://github.com/mhmdmkmri/sistem-approval-progress-harian.git
 cd progress-approval
